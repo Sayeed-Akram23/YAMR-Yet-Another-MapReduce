@@ -24,8 +24,8 @@ git clone [URL-of-the-repository]
 
 ### Usage
 The project consists of several steps, each executed using the make utility. Here's how to use it:
-Step 1: Write Data
 
+**Step 1: Write Data**
 To split a large file into partitions, run the following command:
 
 ```bash
@@ -33,7 +33,7 @@ make write
 ```
 You'll be prompted to enter the number of partitions and the path to the file you want to split.
 
-Step 2: Create Worker Nodes
+**Step 2: Create Worker Nodes**
 
 To create worker nodes for parallel processing, run the following command:
 
@@ -42,14 +42,14 @@ make worker_nodes
 ```
 This will start the server and client processes.
 
-Step 3: Read Data
+**Step 3: Read Data**
 
 To verify that the data is correctly distributed among worker nodes, run:
 
 ```bash
 make read
 ```
-Step 4: Apply Mapper
+**Step 4: Apply Mapper**
 
 To apply the mapper function to each partition, use the following command:
 
@@ -58,7 +58,7 @@ make map
 ```
 You'll be prompted to enter the number of partitions.
 
-Step 5: Integrate Mapper Output
+**Step 5: Integrate Mapper Output**
 
 To integrate the mapper output, run:
 
@@ -67,7 +67,7 @@ make shuffle
 ```
 This will create a merged file with the results.
 
-Step 6: Shuffling and Reducing
+**Step 6: Shuffling and Reducing**
 
 To perform shuffling and reducing, execute:
 
