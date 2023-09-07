@@ -58,16 +58,7 @@ make map
 ```
 You'll be prompted to enter the number of partitions.
 
-**Step 5: Integrate Mapper Output**
-
-To integrate the mapper output, run:
-
-```bash
-make shuffle
-```
-This will create a merged file with the results.
-
-**Step 6: Shuffling and Reducing**
+**Step 5: Shuffling and Reducing**
 
 To perform shuffling and reducing, execute:
 
