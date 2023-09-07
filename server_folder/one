@@ -1,0 +1,29 @@
+this is bd proj
+an attempt to read a 
+file
+which has a massive 
+amt of data
+and needs to be 
+divided into
+partitions 
+and those partitions are to be 
+kept on
+different
+nodes.
+after doing all that
+we'll be all set to
+put those
+partitions wali files
+into different 
+nodes
+and
+afterwards, 
+those nodes will help us to 
+combine all the info in
+them by merging them 
+again we get another
+file
+then finally map reduce
+looks complex
+but will try my level 
+best no matter what happens!!
